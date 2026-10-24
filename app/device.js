@@ -70,5 +70,5 @@
       }, function (err) { finish(failure(err)); });
     } catch (err) { finish(failure(err)); }
   }
-  window.FrameDevice = { launch: launch, launchApp: launchApp, art: art, home: home, settings: settings, apps: apps };
+  window.FrameDevice = { hasArt: false, launch: launch, launchApp: launchApp, art: art, home: home, settings: settings, apps: apps };
 }());
